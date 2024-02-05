@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+section{
+    width:100%;
+    height:100vh;
+    background-image: url("./Related-Images/Background-Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section .Top-Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 40px;
+    background-color: #000;
+}
+.Top-Nav .Nav-Logo{
+}   
+.Top-Nav .Nav-Logo a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.Top-Nav .Nav-Menu{
+
+}
+.Nav-Menu ul{
+    display: flex;
+}
+.Nav-Menu ul li{
+    list-style: none;
+    
+}
+.Nav-Menu ul li a{
+    color:#fff;
+    text-decoration: none;
+    padding:10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:5px;
+    transition: all 0.3s linear;
+}
+.Nav-Menu ul li a:hover{
+    background-color: #fff;
+    color:#000;
+}
+section .First-Section{
+    position: absolute;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+
+}
+.First-Section .h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#fff;
+    font-size: 4rem;
+    margin:20px 0 0 0;
+}
+.First-Section .actions{
+    display: flex;
+    margin: 40px ;
+}
+.First-Section .actions a{
+    padding:15px 40px;
+    border-radius:5px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:40px 20px;
+}
+.First-Section .actions .btn-1{
+    color:#fff;
+    border: 2px solid #fff;
+    transition: all 0.3s linear;
+}
+.First-Section .actions .btn-1:hover{
+    color: #000;
+    background-color: #fff;
+}
+.First-Section .actions .btn-2{
+    background-color: white;
+    color:#000;
+    transition: all 0.3s linear;
+}
+.First-Section .actions .btn-2:hover{
+    color:#fff;
+    border: 2px solid #fff;
+    background-color: transparent;
+
+}
